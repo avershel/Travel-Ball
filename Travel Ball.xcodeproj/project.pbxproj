@@ -14,6 +14,7 @@
 		D903EE5A1DA2AA9100E1D0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D903EE581DA2AA9100E1D0D6 /* LaunchScreen.storyboard */; };
 		D903EE651DA2AA9200E1D0D6 /* Travel_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903EE641DA2AA9200E1D0D6 /* Travel_BallTests.swift */; };
 		D903EE701DA2AA9200E1D0D6 /* Travel_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903EE6F1DA2AA9200E1D0D6 /* Travel_BallUITests.swift */; };
+		D903EE801DA2AC3900E1D0D6 /* field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D903EE7F1DA2AC3900E1D0D6 /* field.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D903EE6B1DA2AA9200E1D0D6 /* Travel BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travel BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D903EE6F1DA2AA9200E1D0D6 /* Travel_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_BallUITests.swift; sourceTree = "<group>"; };
 		D903EE711DA2AA9200E1D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D903EE7F1DA2AC3900E1D0D6 /* field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field.jpg; path = ../../../field.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D903EE4E1DA2AA9100E1D0D6 /* Travel Ball */ = {
 			isa = PBXGroup;
 			children = (
+				D903EE7F1DA2AC3900E1D0D6 /* field.jpg */,
 				D903EE4F1DA2AA9100E1D0D6 /* AppDelegate.swift */,
 				D903EE511DA2AA9100E1D0D6 /* ViewController.swift */,
 				D903EE531DA2AA9100E1D0D6 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D903EE801DA2AC3900E1D0D6 /* field.jpg in Resources */,
 				D903EE5A1DA2AA9100E1D0D6 /* LaunchScreen.storyboard in Resources */,
 				D903EE571DA2AA9100E1D0D6 /* Assets.xcassets in Resources */,
 				D903EE551DA2AA9100E1D0D6 /* Main.storyboard in Resources */,
