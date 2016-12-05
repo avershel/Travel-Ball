@@ -15,6 +15,11 @@
 		D903EE651DA2AA9200E1D0D6 /* Travel_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903EE641DA2AA9200E1D0D6 /* Travel_BallTests.swift */; };
 		D903EE701DA2AA9200E1D0D6 /* Travel_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903EE6F1DA2AA9200E1D0D6 /* Travel_BallUITests.swift */; };
 		D903EE801DA2AC3900E1D0D6 /* field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D903EE7F1DA2AC3900E1D0D6 /* field.jpg */; };
+		D9631EB11DF5B2FB008AED8A /* Football-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9631EB01DF5B2FB008AED8A /* Football-icon.jpg */; };
+		D9EA2FD21DAC1C69001244F4 /* field10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EA2FCE1DAC1C69001244F4 /* field10.jpg */; };
+		D9EA2FD61DAC1DA8001244F4 /* field20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EA2FD31DAC1DA8001244F4 /* field20.jpg */; };
+		D9EA2FD71DAC1DA8001244F4 /* field30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EA2FD41DAC1DA8001244F4 /* field30.jpg */; };
+		D9EA2FD81DAC1DA8001244F4 /* field40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EA2FD51DAC1DA8001244F4 /* field40.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D903EE6F1DA2AA9200E1D0D6 /* Travel_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_BallUITests.swift; sourceTree = "<group>"; };
 		D903EE711DA2AA9200E1D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D903EE7F1DA2AC3900E1D0D6 /* field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field.jpg; path = ../../../field.jpg; sourceTree = "<group>"; };
+		D9631EB01DF5B2FB008AED8A /* Football-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Football-icon.jpg"; path = "../../../Football-icon.jpg"; sourceTree = "<group>"; };
+		D9EA2FCE1DAC1C69001244F4 /* field10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field10.jpg; path = ../../../field/field10.jpg; sourceTree = "<group>"; };
+		D9EA2FD31DAC1DA8001244F4 /* field20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field20.jpg; path = ../../../field/field20.jpg; sourceTree = "<group>"; };
+		D9EA2FD41DAC1DA8001244F4 /* field30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field30.jpg; path = ../../../field/field30.jpg; sourceTree = "<group>"; };
+		D9EA2FD51DAC1DA8001244F4 /* field40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = field40.jpg; path = ../../../field/field40.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		D903EE4E1DA2AA9100E1D0D6 /* Travel Ball */ = {
 			isa = PBXGroup;
 			children = (
+				D9631EB01DF5B2FB008AED8A /* Football-icon.jpg */,
+				D9EA2FD31DAC1DA8001244F4 /* field20.jpg */,
+				D9EA2FD41DAC1DA8001244F4 /* field30.jpg */,
+				D9EA2FD51DAC1DA8001244F4 /* field40.jpg */,
+				D9EA2FCE1DAC1C69001244F4 /* field10.jpg */,
 				D903EE7F1DA2AC3900E1D0D6 /* field.jpg */,
 				D903EE4F1DA2AA9100E1D0D6 /* AppDelegate.swift */,
 				D903EE511DA2AA9100E1D0D6 /* ViewController.swift */,
@@ -238,10 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EA2FD61DAC1DA8001244F4 /* field20.jpg in Resources */,
 				D903EE801DA2AC3900E1D0D6 /* field.jpg in Resources */,
+				D9EA2FD81DAC1DA8001244F4 /* field40.jpg in Resources */,
 				D903EE5A1DA2AA9100E1D0D6 /* LaunchScreen.storyboard in Resources */,
 				D903EE571DA2AA9100E1D0D6 /* Assets.xcassets in Resources */,
+				D9631EB11DF5B2FB008AED8A /* Football-icon.jpg in Resources */,
 				D903EE551DA2AA9100E1D0D6 /* Main.storyboard in Resources */,
+				D9EA2FD21DAC1C69001244F4 /* field10.jpg in Resources */,
+				D9EA2FD71DAC1DA8001244F4 /* field30.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SV6V239CMW;
 				INFOPLIST_FILE = "Travel Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vershel.Travel-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SV6V239CMW;
 				INFOPLIST_FILE = "Travel Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vershel.Travel-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +538,7 @@
 				D903EE761DA2AA9200E1D0D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D903EE771DA2AA9200E1D0D6 /* Build configuration list for PBXNativeTarget "Travel BallTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				D903EE791DA2AA9200E1D0D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D903EE7A1DA2AA9200E1D0D6 /* Build configuration list for PBXNativeTarget "Travel BallUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				D903EE7C1DA2AA9200E1D0D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
